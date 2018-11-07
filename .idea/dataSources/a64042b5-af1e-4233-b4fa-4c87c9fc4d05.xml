@@ -18,7 +18,7 @@
     <schema id="10" parent="1" name="SYSIBM"/>
     <schema id="11" parent="1" name="SYSPROC"/>
     <schema id="12" parent="1" name="SYSSTAT"/>
-    <table id="13" parent="2" name="BOOK"/>
+    <table id="13" parent="2" name="BOOKS"/>
     <table id="14" parent="2" name="SEQUENCE"/>
     <column id="15" parent="13" name="ID">
       <Position>1</Position>
@@ -51,12 +51,12 @@
       <DataType>VARCHAR(255)|12s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="22" parent="13" name="SQL181107185440040">
+    <index id="22" parent="13" name="SQL181107200553960">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="23" parent="13" name="SQL181107185440040">
+    <key id="23" parent="13" name="SQL181107200553960">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
